@@ -1,0 +1,25 @@
+{
+  "name": "lifeos-alexa-guardian",
+  "version": "1.0.0",
+  "description": "Autonomous Goal Protection & Personal Operations Agent for Amazon Alexa+ and MCP",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "mcp-server",
+    "web"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=mcp-server",
+    "dev:all": "concurrently \"npm run dev --workspace=mcp-server\" \"npm run dev --workspace=web\"",
+    "server": "npm run dev --workspace=mcp-server",
+    "web": "npm run dev --workspace=web",
+    "test": "npm run test --workspace=mcp-server",
+    "seed": "npm run seed --workspace=mcp-server",
+    "lint": "npm run lint --workspace=mcp-server",
+    "typecheck": "npm run typecheck --workspace=mcp-server && npm run typecheck --workspace=web",
+    "build": "npm run build --workspace=mcp-server && npm run build --workspace=web"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}

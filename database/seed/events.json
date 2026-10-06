@@ -1,0 +1,13 @@
+[
+  {
+    "id": "evt_hackathon_001",
+    "userId": "usr_alex_001",
+    "title": "Amazon Alexa+ / MCP Hackathon Grand Finale",
+    "description": "Opening keynote and morning pitch evaluation round",
+    "startTime": "2026-10-04T09:00:00.000Z",
+    "endTime": "2026-10-04T18:00:00.000Z",
+    "location": "Demo Venue - Hall 4, Innovation Center",
+    "isCrucial": true,
+    "createdAt": "2026-10-01T08:00:00.000Z"
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "id": "usr_alex_001",
+    "name": "Alex",
+    "email": "alex@hackathon.dev",
+    "preferredBufferMinutes": 30,
+    "preferredLanguage": "English",
+    "preferredTransport": "transit_and_drive",
+    "homeLocation": "742 Evergreen Terrace",
+    "activeGoalId": "goal_hackathon_001",
+    "createdAt": "2026-10-01T08:00:00.000Z"
+  }
+]

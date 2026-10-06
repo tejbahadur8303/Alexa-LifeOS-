@@ -1,0 +1,68 @@
+[
+  {
+    "id": "task_001",
+    "goalId": "goal_hackathon_001",
+    "title": "Backend Deployment",
+    "description": "Deploy MCP streaming gateway and cloud endpoints to staging environment",
+    "assignee": "Rahul",
+    "status": "incomplete",
+    "isCritical": true,
+    "deadline": "2026-10-03T19:00:00.000Z",
+    "dependencies": [],
+    "createdAt": "2026-10-03T06:00:00.000Z",
+    "updatedAt": "2026-10-03T06:45:00.000Z"
+  },
+  {
+    "id": "task_002",
+    "goalId": "goal_hackathon_001",
+    "title": "Demo Testing",
+    "description": "Perform end-to-end rehearsal on live streaming demo endpoints",
+    "assignee": "Alex",
+    "status": "blocked",
+    "isCritical": true,
+    "deadline": "2026-10-03T21:00:00.000Z",
+    "dependencies": ["task_001"],
+    "blockedReason": "Waiting for backend deployment completion by Rahul",
+    "createdAt": "2026-10-03T06:00:00.000Z",
+    "updatedAt": "2026-10-03T06:45:00.000Z"
+  },
+  {
+    "id": "task_003",
+    "goalId": "goal_hackathon_001",
+    "title": "Presentation Slides",
+    "description": "Complete pitch deck highlighting autonomous goal protection",
+    "assignee": "Priya",
+    "status": "complete",
+    "isCritical": true,
+    "deadline": "2026-10-03T16:00:00.000Z",
+    "dependencies": [],
+    "createdAt": "2026-10-03T06:00:00.000Z",
+    "updatedAt": "2026-10-03T06:30:00.000Z"
+  },
+  {
+    "id": "task_004",
+    "goalId": "goal_hackathon_001",
+    "title": "Demo Video Production",
+    "description": "Record backup video of agent replanning workflow",
+    "assignee": "Aman",
+    "status": "complete",
+    "isCritical": false,
+    "deadline": "2026-10-03T18:00:00.000Z",
+    "dependencies": [],
+    "createdAt": "2026-10-03T06:00:00.000Z",
+    "updatedAt": "2026-10-03T06:40:00.000Z"
+  },
+  {
+    "id": "task_005",
+    "goalId": "goal_hackathon_001",
+    "title": "Presentation Rehearsal",
+    "description": "Team run-through of the 3-minute pitch",
+    "assignee": "Team",
+    "status": "incomplete",
+    "isCritical": false,
+    "deadline": "2026-10-03T22:00:00.000Z",
+    "dependencies": ["task_003"],
+    "createdAt": "2026-10-03T06:00:00.000Z",
+    "updatedAt": "2026-10-03T06:45:00.000Z"
+  }
+]

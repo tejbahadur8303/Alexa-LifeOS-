@@ -1,0 +1,32 @@
+[
+  {
+    "id": "team_rahul",
+    "name": "Rahul",
+    "role": "Backend Lead",
+    "status": "incomplete",
+    "assignedDeliverable": "MCP Gateway & Staging Deployment",
+    "contact": "+1 (555) 234-5678",
+    "handle": "@rahul_dev",
+    "notes": "Working on edge caching and stream buffering"
+  },
+  {
+    "id": "team_aman",
+    "name": "Aman",
+    "role": "AI Engineer & Demo Video",
+    "status": "ready",
+    "assignedDeliverable": "Demo video & latency benchmarks",
+    "contact": "+1 (555) 345-6789",
+    "handle": "@aman_ai",
+    "notes": "Delivered high-definition backup screencast"
+  },
+  {
+    "id": "team_priya",
+    "name": "Priya",
+    "role": "Product & Slide Deck",
+    "status": "ready",
+    "assignedDeliverable": "Presentation Slides & Value Proposition",
+    "contact": "+1 (555) 456-7890",
+    "handle": "@priya_lead",
+    "notes": "Final deck version 3 synced to cloud drive"
+  }
+]

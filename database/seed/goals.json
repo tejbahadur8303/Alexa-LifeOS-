@@ -1,0 +1,22 @@
+[
+  {
+    "id": "goal_hackathon_001",
+    "userId": "usr_alex_001",
+    "title": "Attend Amazon Alexa+ Hackathon",
+    "description": "Make sure I reach my hackathon tomorrow by 9 AM and my team is ready.",
+    "deadline": "2026-10-04T09:00:00.000Z",
+    "targetLocation": "Demo Venue - Hall 4, Innovation Center",
+    "priority": "critical",
+    "status": "active",
+    "successCriteria": [
+      "arrive_before_deadline",
+      "presentation_ready",
+      "demo_ready",
+      "team_ready"
+    ],
+    "progress": 78,
+    "nextAction": "Monitor Rahul backend deployment blocker and track travel conditions",
+    "createdAt": "2026-10-03T06:00:00.000Z",
+    "updatedAt": "2026-10-03T06:50:00.000Z"
+  }
+]
